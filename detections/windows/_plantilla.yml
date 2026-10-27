@@ -1,0 +1,30 @@
+# Plantilla. Copiar y renombrar como t1234-descripcion-corta.yml
+title:
+id:
+status: experimental
+description: >
+  Que detecta y, sobre todo, POR QUE funciona: que comportamiento del atacante
+  hace inevitable esta senal.
+references:
+  -
+author:
+date:
+tags:
+  - attack.
+logsource:
+  category:
+  product:
+detection:
+  selection:
+
+  condition: selection
+falsepositives:
+  - # Actividad legitima concreta, no "posibles falsos positivos"
+level:
+
+# --- campos propios del repositorio, no estandar de Sigma ---
+validacion:
+  emulado_con:   # Atomic Red Team T####, script propio, manual
+  fecha:
+  disparo:       # si / no
+  notas:

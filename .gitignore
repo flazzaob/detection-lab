@@ -1,0 +1,22 @@
+# Datos y telemetria: nunca se suben
+*.evtx
+*.pcap
+tests/samples/raw/
+lab/data/
+lab/certs/
+
+# Secretos
+.env
+*.key
+*.pem
+credentials*
+
+# Entorno
+__pycache__/
+.venv/
+venv/
+*.pyc
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
